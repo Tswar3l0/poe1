@@ -98,7 +98,7 @@ public class LoginTest {
      * Test of loginUser method, of class Login.
      */
     @Test
-    public void testLoginUser() {
+    public void testLoginUserfalse() {
         System.out.println("loginUser");
         Login login = new Login();
         String temp_username = "kyl_1";
