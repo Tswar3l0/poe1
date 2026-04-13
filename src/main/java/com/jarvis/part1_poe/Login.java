@@ -161,7 +161,7 @@ public class Login {
 
     //register user
     public String registerUser(boolean is_username_valid, boolean is_password_valid){
-        if (!is_username_valid && !is_password_valid){
+        if (!is_username_valid ||!is_password_valid){
             return "Username and password do not meet the requirements.\n";
         }
         else if (!is_username_valid){
