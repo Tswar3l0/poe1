@@ -80,7 +80,7 @@ public class LoginTest {
      * Test of registerUser method, of class Login.
      */
     @Test
-    public void testRegisterUser() {
+    public void testRegisterUserfalse() {
         System.out.println("registerUser");
 
         boolean is_username_valid = false;
