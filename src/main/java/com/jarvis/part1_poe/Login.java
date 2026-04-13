@@ -162,16 +162,16 @@ public class Login {
     //register user
     public String registerUser(boolean is_username_valid, boolean is_password_valid){
         if (!is_username_valid ||!is_password_valid){
-            return "Username and password do not meet the requirements.\n";
+            return "Username and password do not meet the requirements";
         }
         else if (!is_username_valid){
-            return "Username does not meet the requirements.\n";
+            return "Username does not meet the requirements";
         }
         else if (!is_password_valid){
-            return "The password does not meet the complexity requirements.\n";
+            return "The password does not meet the complexity requirements";
         }
         else {
-            return "Registered Successfully.\n";
+            return "Registered Successfully";
         }
     }
 
@@ -185,10 +185,10 @@ public class Login {
 
     public String returnLoginStatus(String tempUsername, String temp_password, String temp_phonenumber, String login_username, String login_password, String Firstname, String Lastname){
         if (loginUser(tempUsername, temp_password, temp_phonenumber, login_username, login_password)){
-            return "Welcome " + Firstname + ", " + Lastname + " it is great to see you again.\n";
+            return "Welcome " + Firstname + ", " + Lastname + " it is great to see you again";
         }
         else {
-            return "Username or password incorrect please try again.\n";
+            return "Username or password incorrect please try again";
         }
     }
     
