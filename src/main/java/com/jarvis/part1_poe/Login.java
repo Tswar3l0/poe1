@@ -143,6 +143,7 @@ public class Login {
     }
 
     //Checking cell phone number if it's valid or not
+    //register user
     public  boolean checkCellPhoneNumber(String phone_number){
 
         Pattern international_code = Pattern.compile("^\\+27\\d{9}$");//10 digits 
