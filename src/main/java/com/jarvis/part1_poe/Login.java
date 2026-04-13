@@ -145,7 +145,7 @@ public class Login {
     //Checking cell phone number if it's valid or not
     public  boolean checkCellPhoneNumber(String phone_number){
 
-        Pattern international_code = Pattern.compile("^\\+27\\d{9}$");
+        Pattern international_code = Pattern.compile("^\\+27\\d{9}$");//10 digits 
         Matcher cell_phone_number = international_code.matcher(phone_number);
 
         if (cell_phone_number.matches()) {
