@@ -46,7 +46,7 @@ public class Part2_POE {
         login.setLastname(lastName);
 
         //Registering
-        boolean registered = true;
+       boolean registered = true;
 
         while (registered) {
 
