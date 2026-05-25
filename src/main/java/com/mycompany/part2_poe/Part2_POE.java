@@ -41,7 +41,7 @@ public class Part2_POE {
         //check if Lastname has a value or not
         do {
             //Lastname
-            lastName = JOptionPane.showInputDialog(null, "Enter your second name: ");
+            lastName = JOptionPane.showInputDialog( "Enter your second name: ");
         } while (lastName == null || lastName.trim().isEmpty());
         login.setLastname(lastName);
 
